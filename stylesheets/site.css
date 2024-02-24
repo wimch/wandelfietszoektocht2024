@@ -1,0 +1,46 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Avenir Next", "Avenir", "Segoe UI", "Lucida Grande", "Helvetica Neue", "Helvetica", "Fira Sans", "Roboto", "Noto", "Droid Sans", "Cantarell", "Oxygen", "Ubuntu", "Franklin Gothic Medium", "Century Gothic", "Liberation Sans", sans-serif;
+  margin: 0px;
+  background: #377b8a; }
+
+.sky {
+  color: #377b8a;
+  background: #c7e5f5; }
+
+.info {
+  color: #fff;
+  background: #377b8a;
+  font-weight: 200;
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-bottom: 25px; }
+
+.title {
+  text-align: center;
+  padding-top: 50px;
+  font-weight: 800;
+  padding-bottom: 25px;
+  font-size: 2em; }
+
+img {
+  height: auto;
+  width: 100%; }
+
+.col-left {
+  text-align: center;
+  width: 100%; }
+
+.col-right {
+  width: 90%; }
+
+@media only screen and (min-width: 600px) {
+  .col-left {
+    width: 47%;
+    float: left; }
+  .col-right {
+    width: 50%;
+    float: left; }
+  .title {
+    font-size: 2.5em; }
+  .info {
+    font-size: 1.5em; } }
