@@ -37,6 +37,10 @@ page '/*.txt', layout: false
 #   end
 # end
 
+set :relative_links, true
+activate :relative_assets
+set :url_root, 'http://wimc.github.io/wandelfietszoektocht-options'
+
 # Build-specific configuration
 # https://middlemanapp.com/advanced/configuration/#environment-specific-settings
 
